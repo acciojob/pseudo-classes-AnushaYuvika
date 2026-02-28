@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+:root {
+	background-color: rgb(135, 206, 235);
+}
+.container > p:first-child {
+	background-color: black;
+	color: white;
+}
+
+.container > p:last-of-type {
+	color: red;
+}
+
+li {
+	padding: 5px;
+}
+li:nth-child(even) {
+  background-color: gray;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(3) {
+  background-color: pink;
+}
